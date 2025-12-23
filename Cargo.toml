@@ -44,7 +44,7 @@ handlebars = "6.3.2"# downgraded due to parent 'mdbook' dependency and error the
 html_parser = "0.7.0"
 url = "2.5"
 ureq = "3.1"
-infer = "0.19"
+infer = { version = "0.20", git = "https://github.com/BartMassey-upstream/infer", branch = "match-svg" }
 const_format = "0.2"
 
 [dev-dependencies]
